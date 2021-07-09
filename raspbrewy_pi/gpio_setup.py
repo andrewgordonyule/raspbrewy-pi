@@ -1,9 +1,3 @@
-# Rasp-Brewy Pi Project
-# by Andrew Yule
-# February 2020 / Updated 19/3/2020
-# Using code from CamJam Edukit 2
-# and Energenie (Smart Plug)
-
 # import the required modules
 import RPi.GPIO as GPIO
 import os
