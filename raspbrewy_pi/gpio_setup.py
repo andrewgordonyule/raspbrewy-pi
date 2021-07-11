@@ -1,9 +1,3 @@
-# Rasp-Brewy Pi Project
-# by Andrew Yule
-# February 2020 / Updated 19/3/2020
-# Using code from CamJam Edukit 2
-# and Energenie (Smart Plug)
-
 # import the required modules
 import RPi.GPIO as GPIO
 import os
@@ -88,3 +82,7 @@ def heatingOff():
     sleep(0.25)
     # Disable the modulator
     GPIO.output(22, False)
+
+def switchLightColour(pin, value, pin2, value2):
+    GPIO.output(pin, value)
+    GPIO.output(pin2, value2)

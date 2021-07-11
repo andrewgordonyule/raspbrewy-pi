@@ -30,7 +30,7 @@ def read_temp():
     equals_pos = lines[1].find('t=')
 
     # if the '=' is found, convert the rest of the line after the
-    # '=' into degrees Celcuis
+    # '=' into degrees Celsius
     if equals_pos != -1:
         temp_string = lines[1][equals_pos + 2:]
         temp_c = float(temp_string) / 1000.0
