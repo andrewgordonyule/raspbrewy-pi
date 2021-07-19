@@ -7,4 +7,5 @@ Equipment Used:
 * CamJam Edukit #2 Sensors / Thermometer
 * Breadboard and wires
 * Energenie ENER002-2PI Remote Control Sockets with RPi Transmitter
+* RPI GPIO Expansion Board
 * Heating Pad with mains power lead

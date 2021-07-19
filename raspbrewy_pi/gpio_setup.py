@@ -1,8 +1,6 @@
-# import the required modules
 import RPi.GPIO as GPIO
 import os
 
-# time libraries
 from time import sleep
 
 # set the GPIO pins numbering mode

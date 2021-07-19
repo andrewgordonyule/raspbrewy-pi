@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from time import time
 
 # set up graph
 plt.ion()
