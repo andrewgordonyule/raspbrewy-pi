@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock, Mock
 
-from raspbrewy_pi import thermometer
+from raspbrewypi import thermometer
 
 
 class TestThermometer(unittest.TestCase):

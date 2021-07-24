@@ -1,6 +1,6 @@
 import unittest
 
-#from raspbrewy_pi import gpio_setup
+#from raspbrewypi import gpio_setup
 
 
 class TestGPIO(unittest.TestCase):

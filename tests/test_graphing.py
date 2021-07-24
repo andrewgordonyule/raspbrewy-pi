@@ -1,7 +1,7 @@
 import unittest
 from time import time
 
-from raspbrewy_pi import graphing
+from raspbrewypi import graphing
 
 
 class TestGraphing(unittest.TestCase):
