@@ -3,11 +3,18 @@ pipeline {
     stages {
         stage('Checkout from Version Control') {
             steps {
+                cleanWs()
                 checkout scm
+            }
+        }
+        stage('build') {
+            steps {
+                sh 'pip install -r requirements.txt'
             }
         }
         stage('Run Tests') {
             steps {
+                sh 'pip install unittest'
                 sh 'python -m unittest'
             }
         }
