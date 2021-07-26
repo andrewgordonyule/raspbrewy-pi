@@ -2,7 +2,7 @@
 
 Temperature automation tool for home brewing wine / kombucha using a Raspberry Pi.
 
-Equipment Used:
+##Equipment Used:
 * Raspberry Pi (Model 2 B V1.1)
 * CamJam Edukit #2 Sensors / Thermometer
 * Breadboard and wires

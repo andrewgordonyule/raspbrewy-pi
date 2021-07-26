@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout from Version Control') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                sh 'python -m unittest'
+            }
+        }
+    }
+}
