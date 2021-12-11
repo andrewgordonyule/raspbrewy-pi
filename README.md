@@ -10,5 +10,5 @@ Temperature automation tool for home brewing wine / kombucha using a Raspberry P
 * RPI GPIO Expansion Board
 * Heating Pad with mains power lead
 
-Blog post:
-https://www.andrewyule.dev/raspbrewy-pi/
+Read more about the project:
+<a href="https://www.andrewyule.dev/raspbrewy-pi/" target="_blank">Raspbrewy-pi blog post</a>
